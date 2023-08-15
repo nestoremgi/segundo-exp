@@ -7,7 +7,11 @@
     "build": {
       "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
       "executor": "@nxtensions/astro:build",
-      "options": {}
+      "options": {
+        "verbose": true
+      }
+      
+      
     },
     "dev": {
       "executor": "@nxtensions/astro:dev",
